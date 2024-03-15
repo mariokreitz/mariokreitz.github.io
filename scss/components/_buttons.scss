@@ -1,0 +1,23 @@
+@use '../custom' as *;
+
+.btn-rounded {
+  position: relative;
+  padding: 0.537rem 2.75rem 0.537rem 1.25rem;
+  font-weight: 500;
+  margin: 0;
+  border: 0.1rem solid rgba($white, 0.6);
+  background-color: $orange;
+  color: $white;
+  span {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    i {
+      font-size: 1rem;
+      line-height: 2.2rem;
+    }
+  }
+}
