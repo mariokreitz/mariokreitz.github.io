@@ -1,6 +1,6 @@
 # Mario Kreitz Portfolio Repository
 
-Willkommen im Repository für mein Portfolio! Dieses Projekt wurde mit HTML, CSS und JavaScript erstellt und verwendet das Bootstrap-Framework für das Frontend-Styling und -Layout.
+Willkommen im Repository für mein Portfolio! Dieses Projekt wurde mit HTML, CSS und JavaScript erstellt und verwendet das Bootstrap-Framework für das Frontend-Styling und -Layout. SASS wurde für das CSS-Präprozessing verwendet.
 
 ## Über das Projekt
 
@@ -9,7 +9,8 @@ Dieses Projekt dient als mein Portfolio, um meine Fähigkeiten und Projekte zu p
 ## Verwendete Technologien und Frameworks
 
 - HTML: Die Struktur der Website wurde mit HTML erstellt, um die Inhalte zu strukturieren.
-- CSS: Das Styling wurde mit CSS implementiert, um das Erscheinungsbild der Website anzupassen.
+- SASS: Die Styling-Präprozessor-Sprache SASS wurde verwendet, um das CSS zu schreiben und zu organisieren.
+- CSS: Das kompilierte CSS wurde mithilfe von SASS generiert, um das Erscheinungsbild der Website anzupassen.
 - JavaScript: Einige interaktive Elemente und Funktionalitäten wurden mit JavaScript hinzugefügt, um die Benutzererfahrung zu verbessern.
 - Bootstrap: Das Bootstrap-Framework wurde verwendet, um das Layout zu erstellen, Komponenten zu stylen und die Responsivität der Website sicherzustellen.
 
@@ -27,7 +28,19 @@ Dieses Projekt dient als mein Portfolio, um meine Fähigkeiten und Projekte zu p
    cd mariokreitz.github.io
    ```
 
-3. Öffne die `index.html`-Datei in einem Webbrowser deiner Wahl.
+3. Installiere die erforderlichen Abhängigkeiten:
+
+   ```
+   npm install
+   ```
+
+4. Kompiliere das SASS zu CSS:
+
+   ```
+   npm run build-css
+   ```
+
+5. Öffne die `index.html`-Datei in einem Webbrowser deiner Wahl.
 
 ## Beitrag
 
@@ -37,7 +50,7 @@ Wenn du Vorschläge zur Verbesserung dieses Projekts hast, fühle dich frei, Iss
 
 Falls du Fragen hast oder mit mir in Kontakt treten möchtest, kannst du mich wie folgt erreichen:
 
-- Email: mario.kreitz@web.de
+- Email: mario.kreitz@web.com
 - Twitter: [@MarioKreitz](https://twitter.com/KreitzMario)
 
 Ich freue mich darauf, von dir zu hören!
