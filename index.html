@@ -6,10 +6,16 @@
     <title>Mario Kreitz - Github</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/fontawesome.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!--     START THE NAVBAR SECTION -->
-    <nav class="navbar navbar-expand-lg menu">
+    <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img src="/img/mario/mario_mini_transparent.png" alt="logo image" /><span id="logo">&lt/&gt</span>Mario Kreitz
@@ -31,25 +37,50 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Skills</a>
+              <a class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Projekte</a>
             </li>
           </ul>
           <button
-            onclick="window.open('https://www.codewars.com/users/Kmario','_blank');"
+            onclick="window.open('https://www.freecodecamp.org/MarioKreitz','_blank');"
             type="button"
-            class="rounded-pill btn-rounded"
+            class="rounded-pill btn-freecodecamp"
           >
-            codewars<span><i class="fa-solid fa-laptop-code"></i></span>
+            freecodecamp.org<span><i class="fa-brands fa-free-code-camp"></i></span>
           </button>
         </div>
       </div>
     </nav>
+    <!-- START THE INTRO SECTION -->
+    <section id="home" class="intro-section">
+      <div class="container">
+        <div class="row align-items-center text-white">
+          <div class="col-md-6 intros">
+            <h1 class="display-2">
+              <span class="display-2--intro">Hey!, Ich bin Mario</span>
+              <span class="display-2--description"
+                >Willkommen auf meiner GitHub.io Webseite! Hier präsentiere ich stolz meine Arbeit als aufstrebender
+                Webentwickler. Tauche ein und entdecke die Projekte, an denen ich arbeite, und erfahre mehr über meine
+                Leidenschaft für kreative Lösungen und innovative Technologien.</span
+              >
+            </h1>
+            <button type="button" class="rounded-pill btn-rounded">
+              Get in Touch
+              <span>
+                <i class="fa fa-envelope"></i>
+              </span>
+            </button>
+          </div>
+          <div class="col-md-6 intros"></div>
+        </div>
+      </div>
+    </section>
+
     <script src="/assets/js/bootstrap.bundle.js"></script>
   </body>
 </html>
