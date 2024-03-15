@@ -1,12 +1,15 @@
 @use '../custom' as *;
 
-.btn-rounded {
+.btn-freecodecamp {
+  @include media-breakpoint-down(sm) {
+    display: none;
+  }
   position: relative;
   padding: 0.537rem 2.75rem 0.537rem 1.25rem;
   font-weight: 500;
   margin: 0;
   border: 0.1rem solid rgba($white, 0.6);
-  background-color: $orange;
+  background-color: $gray-90;
   color: $white;
   span {
     position: absolute;
@@ -20,12 +23,16 @@
       line-height: 2.2rem;
     }
   }
-  &:hover > span {
-    -ms-animation: bounce 0.5s infinite linear;
-    -moz-animation: bounce 0.5s infinite linear;
-    -o-animation: bounce 0.5s infinite linear;
-    -webkit-animation: bounce 0.5s infinite linear;
-    animation: bounce 0.5s infinite linear;
+  &:hover {
+    box-shadow: 0 0 5px rgba($purple, 1) inset;
+    span {
+      color: $yellow;
+      -ms-animation: bounce 0.5s infinite linear;
+      -moz-animation: bounce 0.5s infinite linear;
+      -o-animation: bounce 0.5s infinite linear;
+      -webkit-animation: bounce 0.5s infinite linear;
+      animation: bounce 0.5s infinite linear;
+    }
   }
   @-webkit-keyframes bounce {
     0% {
@@ -97,4 +104,6 @@
       top: 50%;
     }
   }
+}
+.btn-email {
 }
