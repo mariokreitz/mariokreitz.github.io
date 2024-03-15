@@ -11865,6 +11865,82 @@ textarea.form-control-lg {
   font-size: 1rem;
   line-height: 2.2rem;
 }
+.btn-rounded:hover > span {
+  -moz-animation: bounce 0.5s infinite linear;
+  -o-animation: bounce 0.5s infinite linear;
+  -webkit-animation: bounce 0.5s infinite linear;
+  animation: bounce 0.5s infinite linear;
+}
+@-webkit-keyframes bounce {
+  0% {
+    top: 50%;
+  }
+  50% {
+    top: 45%;
+  }
+  70% {
+    top: 40%;
+  }
+  100% {
+    top: 50%;
+  }
+}
+@-moz-keyframes bounce {
+  0% {
+    top: 50%;
+  }
+  50% {
+    top: 45%;
+  }
+  70% {
+    top: 40%;
+  }
+  100% {
+    top: 50%;
+  }
+}
+@-o-keyframes bounce {
+  0% {
+    top: 50%;
+  }
+  50% {
+    top: 45%;
+  }
+  70% {
+    top: 40%;
+  }
+  100% {
+    top: 50%;
+  }
+}
+@-ms-keyframes bounce {
+  0% {
+    top: 50%;
+  }
+  50% {
+    top: 45%;
+  }
+  70% {
+    top: 40%;
+  }
+  100% {
+    top: 50%;
+  }
+}
+@keyframes bounce {
+  0% {
+    top: 50%;
+  }
+  50% {
+    top: 45%;
+  }
+  70% {
+    top: 40%;
+  }
+  100% {
+    top: 50%;
+  }
+}
 
 .menu {
   background: linear-gradient(to right, rgba(34, 40, 49, 0.95), rgba(57, 62, 70, 0.95));
