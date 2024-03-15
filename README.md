@@ -14,6 +14,15 @@ Dieses Projekt dient als mein Portfolio, um meine Fähigkeiten und Projekte zu p
 - JavaScript: Einige interaktive Elemente und Funktionalitäten wurden mit JavaScript hinzugefügt, um die Benutzererfahrung zu verbessern.
 - Bootstrap: Das Bootstrap-Framework wurde verwendet, um das Layout zu erstellen, Komponenten zu stylen und die Responsivität der Website sicherzustellen.
 
+## Abhängigkeiten
+
+Folgende Abhängigkeiten sind erforderlich:
+
+- fontawesome-free: Version 6.5.1
+- autoprefixer: Version 10.4.18
+- bootstrap: Version 5.3.3
+- postcss-cli: Version 11.0.0
+
 ## Installation und Ausführung
 
 1. Klone das Repository auf deinen lokalen Computer:
