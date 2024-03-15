@@ -37,7 +37,7 @@ Dieses Projekt dient als mein Portfolio, um meine Fähigkeiten und Projekte zu p
 4. Kompiliere das SASS zu CSS:
 
    ```
-   npm run build-css
+   npm run compile:sass
    ```
 
 5. Öffne die `index.html`-Datei in einem Webbrowser deiner Wahl.
