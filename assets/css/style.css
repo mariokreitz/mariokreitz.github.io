@@ -11915,6 +11915,9 @@ textarea.form-control-lg {
   -webkit-animation: bounce 0.5s infinite linear;
   animation: bounce 0.5s infinite linear;
 }
+.btn-email:hover .fa-envelope:before {
+  content: "\f2b6";
+}
 
 @-webkit-keyframes bounce {
   0% {
