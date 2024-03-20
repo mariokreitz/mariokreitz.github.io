@@ -71,6 +71,9 @@
       animation: bounce 0.5s infinite linear;
     }
   }
+  &:hover .fa-envelope:before {
+    content: '\f2b6';
+  }
 }
 @-webkit-keyframes bounce {
   0% {
