@@ -3,6 +3,9 @@
 
 .menu {
   @include gradient;
+  img {
+    height: 50px;
+  }
   #logo {
     color: $orange;
     font-weight: 900;
