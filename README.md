@@ -60,6 +60,5 @@ Wenn du Vorschläge zur Verbesserung dieses Projekts hast, fühle dich frei, Iss
 Falls du Fragen hast oder mit mir in Kontakt treten möchtest, kannst du mich wie folgt erreichen:
 
 - Email: mario.kreitz@web.de
-- Twitter: [@MarioKreitz](https://twitter.com/KreitzMario)
 
 Ich freue mich darauf, von dir zu hören!
