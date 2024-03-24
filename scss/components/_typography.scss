@@ -20,3 +20,36 @@
     }
   }
 }
+
+// HEADING LINE
+
+.heading-line::before {
+  content: '';
+  width: 10rem;
+  height: 0.1rem;
+  display: block;
+  margin: 0 auto;
+  background-color: $orange-light;
+}
+.heading-line::after {
+  content: '';
+  width: 2rem;
+  padding-top: 0.5rem;
+  height: 0.2rem;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  background-color: $orange-light;
+}
+
+// DISPLAY-3
+
+.display-3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+// BORDER RIGHT
+.border-right {
+  border-right: 0.1rem solid $gray-300;
+  height: 100%;
+}
